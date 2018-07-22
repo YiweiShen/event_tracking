@@ -11,7 +11,7 @@ API_KEY = '' # use your own
 
 
 def get_news(q, start_date, end_date, language):
-    """ return first 50 results from newsapi
+    """ return results from newsapi
         free 1,000 requests per day
     """
     global API_KEY
